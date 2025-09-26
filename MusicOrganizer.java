@@ -137,11 +137,17 @@ public class MusicOrganizer
     
     public void listMatching(String searchString)
     {
+        boolean matchFound = false;
         for(String filename :files) {
             if(filename.contains(searchString)) {
                 // A match.
                 System.out.println(filename);
-            }    
+                matchFound = true;
+            }
+            if(matchFound == false){
+                System.out.println("No matching file was found");
+            }
         }
     }
 }
+
