@@ -57,7 +57,7 @@ public class MusicOrganizer
      */
     public void listAllFiles()
     {
-        int i = files.size() - 1;
+        int i = files.size();
         for(String filename : files) {
             int position = files.size() - i;
             System.out.println(position +": " + filename);
