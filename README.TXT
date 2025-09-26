@@ -18,4 +18,6 @@ method prints a list of the collection.
 QUESTIONS
 
 25. In the case where no matching file is found, nothing is printed.
-
+28. for(Track track : trackList) {
+    ...
+    }
